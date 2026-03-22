@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=4:00:00
+#SBATCH --time=2:00:00
 #SBATCH --output=logs/atlaspatch-patch-%j.out
 #SBATCH --error=logs/atlaspatch-patch-%j.err
 #SBATCH --mail-user=s_markan@hotmail.com
