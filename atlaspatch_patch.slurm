@@ -40,7 +40,7 @@ SEG_BATCH="${5:-32}"
 cd "$SLURM_SUBMIT_DIR"
 
 # Activate environment
-source "$SLURM_SUBMIT_DIR/atlas_env/bin/activate"
+source "/home/smarkan/scratch/comp691_pathology/A2/atlas_env/bin/activate"
 
 ###################################
 # Derived settings

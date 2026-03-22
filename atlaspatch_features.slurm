@@ -49,9 +49,8 @@ FEATURE_WORKERS="${SLURM_CPUS_PER_TASK:-8}"
 ###################################
 cd "$SLURM_SUBMIT_DIR"
 
-# Example:
-# module load python cuda openslide
-# source "$SLURM_SUBMIT_DIR/atlas_env/bin/activate"
+# Activate environment
+source "/home/smarkan/scratch/comp691_pathology/A2/atlas_env/bin/activate"
 
 ###################################
 # Diagnostics

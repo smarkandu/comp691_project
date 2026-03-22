@@ -51,6 +51,9 @@ FEATURE_WORKERS="${SLURM_CPUS_PER_TASK:-8}"
 ###################################
 cd "$SLURM_SUBMIT_DIR"
 
+# Activate environment
+source "/home/smarkan/scratch/comp691_pathology/A2/atlas_env/bin/activate"
+
 ###################################
 # Diagnostics
 ###################################
