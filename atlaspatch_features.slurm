@@ -31,14 +31,14 @@ OUTPUT_ROOT="$2"
 ###################################
 # Optional args with defaults
 ###################################
-PATCH_SIZE="${3:-256}"
-TARGET_MAG="${4:-20}"
+PATCH_SIZE="${3:-224}"
+TARGET_MAG="${4:-10}"
 FEATURE_BATCH="${5:-64}"
 
 ###################################
 # Fixed/default settings
 ###################################
-FEATURES="vit_b_16"
+FEATURES="resnet18"
 FEATURE_DEVICE="cuda"
 DEVICE="cuda"
 FEATURE_PRECISION="float32"
